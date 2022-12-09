@@ -1,6 +1,6 @@
-# include <stdio.h>
-# include <stdlib.h>
-# include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - main function to generate a random number
@@ -10,7 +10,6 @@
  */
 
 int main(void)
-
 {
 	int n;
 
@@ -18,6 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
+	
 	{
 		printf("%d is positive\n", n);
 	
@@ -31,4 +31,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-}	
+}
