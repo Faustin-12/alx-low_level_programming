@@ -25,7 +25,7 @@ int _strlen(char *s)
  * Return: dest
  */
 
-char *_strdup(char *dest, char *src)
+char *_strlen(char *dest, char *src)
 {
 	int i = 0;
 
